@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black ;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+ section .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-family: 'Caveat',sans-serif;
+    font-size: 2.5rem;
+ }
+ /* Header */
+.leftContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.leftContainer .profilImage img{
+    width: 50px;
+    height: 50px;
+}
+.leftContainer .name h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5rem;
+}
+.rightContainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.rightContainer ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+.rightContainer ul li{
+    display: inline-block;
+}
+.rightContainer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.rightContainer a:hover {
+    color: blue;
+}
+/* Section */
+.boxes{
+    border-top: 2px solid black;
+}
+.boxContainer{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.projectContainer{
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.projectContainer h3{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Caveat',
+        sans-serif;
+}
+.projectList{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.projectList li{
+    padding: 10px;
+    border-top: 1px solid black;
+    text-align: left;
+}
+.projectList li:first-child{
+    border-top: none;
+}
+.expContainer{
+    width: 800px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.1) ;
+}
+.expContainer h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Caveat' ,sans-serif;
+}
+.expContainer h4{
+    font-size: 1.5rem;
+    font-family: 'Caveat',sans-serif;
+    margin-bottom: 20px;
+}
+.expItem{
+    padding: 15px 0;
+    border-top: 1px solid black;
+}
+.expItem:first-child{
+    border-top: none;
+}
+.expItem a {
+    text-decoration: none;
+    color: blue;
+}
+.expItem a:hover {
+    text-decoration: underline;
+}
+.edcContainer{
+    width: 800px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.edcContainer h3{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Caveat' , sans-serif;
+}
+.edcItem{
+    padding: 15px 0;
+}
+.listTitle{
+    padding: 15px 0;
+}
+.edcContainer .listItem{
+    list-style-type: circle;
+}
+.bottomTitle{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: 'Caveat', sans-serif;
+    font-size: 1.5rem;
+}
+.bottomBoxesContainer{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box-1{
+    text-align: left;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box-1 p{
+    padding: 10px;
+}
+.box-2 {
+    text-align: left;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box-2 p {
+    padding: 10px;
+}
+.box-3 {
+    text-align: left;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box-3 p {
+    padding: 10px;
+}
+footer{
+    height: 200px;
+    text-align: center;
+}
+footer p{
+    margin-top: 100px;
+    font-family: 'Caveat' , sans-serif;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .leftContainer {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .rightContainer ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .boxContainer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .projectContainer,
+    .expContainer,
+    .edcContainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .boxContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .expContainer,
+    .edcContainer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bottomBoxesContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
